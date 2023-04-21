@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --redhat-display-font: "Red Hat Display";
+
+    color-scheme: light;
+    --color-neutral-950: 33 13 72; /* #210d48 */
+    --color-neutral-900: 33 13 72; /* #210d48 */
+    --color-neutral-800: 132 96 202;
+    --color-neutral-700: 62 31 120;
+    --color-neutral-600: 72 38 136;
+    --color-neutral-500: 103 67 170;
+    --color-neutral-400: 158 108 255;
+    --color-neutral-300: 161 122 236;
+    --color-neutral-100: 192 167 252; /* #f8f4ff */
+
+    --color-danger-gradient: rgb(126 27 95);
+    --color-warning-gradient: rgb(126 58 75);
+    --color-safe-gradient: rgb(44 118 91);
+    --color-wallet-text: #fff;
+  }
+}
+
+.bg-gradient {
+  background: linear-gradient(204.85deg, #e0d0ff -0.72%, #ffffff 84.18%);
+}
+.bg-gradient-hero {
+  background: linear-gradient(54.27deg, #210d48 -1.12%, #2e13d2 138.67%);
+}
+.bg-gradient-sets {
+  background: linear-gradient(234.27deg, #210d48 -1.12%, #2e13d2 138.67%);
+}
+.shadow {
+  box-shadow: 0px 6px 12px rgba(45, 26, 81, 0.25);
+}

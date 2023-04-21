@@ -1,0 +1,43 @@
+{
+  "name": "unloc-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "unloc-landing-page",
+  "author": "ExecuteIT",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "restart": "npm i && gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.13",
+    "class-variance-authority": "^0.5.1",
+    "gatsby": "^5.8.1",
+    "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-provide-react": "^1.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "tailwind-merge": "^1.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.31",
+    "@types/react-dom": "^18.0.11",
+    "autoprefixer": "^10.4.14",
+    "gatsby-plugin-postcss": "^6.8.0",
+    "gatsby-plugin-root-import": "^2.0.9",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.7",
+    "prettier-plugin-tailwindcss": "^0.2.7",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^5.0.3"
+  }
+}
