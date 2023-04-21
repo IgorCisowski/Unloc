@@ -10,8 +10,8 @@ export const Member = () => {
   return (
     <section className="bg-gradient-sets relative pb-20 pt-14 text-white md:pb-40 md:pt-32">
       <div className="container flex flex-col items-center xl:flex-row">
-        <img src={line} alt="" className="absolute -top-4 right-2/4" />
-        <img src={lineBottom} alt="" className="absolute -bottom-4 right-1/4" />
+        {/* <img src={line} alt="" className="absolute -top-4 right-2/4" />
+        <img src={lineBottom} alt="" className="absolute -bottom-4 right-1/4" /> */}
         {/* HEADING */}
         <div className=" mb-10 text-center md:text-start xl:m-0 xl:w-full xl:max-w-lg ">
           <h2 className="mb-5 text-4xl font-black md:text-6xl md:leading-snug">
